@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-hw-01-cli",
+  "version": "1.0.0",
+  "description": "Домашнє завдання nodejs 01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Icenn85/nodejs-hw-01-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Icenn85/nodejs-hw-01-CLI/issues"
+  },
+  "homepage": "https://github.com/Icenn85/nodejs-hw-01-CLI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^9.5.0",
+    "nanoid": "^3.3.4"
+  }
+}
